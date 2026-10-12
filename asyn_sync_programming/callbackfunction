@@ -1,0 +1,51 @@
+// import { series } from "async";
+
+// function wakeUp(cb) {
+//     console.log("uthne ki koshish start")
+//     setTimeout(function() {
+//         console.log("uth gaya");
+//         cb(); // This means uthna complete hua ab mai takeBath kar sakta hoon
+//     }, 2000);
+// }
+
+// function takeBath() {
+//     console.log("Bath start")
+//     setTimeout(function() {
+//         console.log("bath done");
+//     }, 2000);
+// }
+
+// wakeUp(takeBath); // takeBath is callback function for wakeUp
+// // Jab wakeUp ka kaam complete ho jaye toh jis function ko call karenge that is
+// // takeBath and this takeBath act as callback function for wakeUp
+
+
+// function download(cb){
+//     console.log("downlaod starts")
+//     setTimeout(function(){
+//         console.log("download completed")
+//        cb(upload);
+//     }, 2000);
+// }
+
+// function compress(cb){
+//     console.log("compressed starts")
+//     setTimeout(function(){
+//         console.log("compressed completed")
+//         cb();
+//     }, 2000);
+// }
+
+
+
+// function upload(){
+//     console.log("upload starts")
+//     setTimeout(function(){
+//         console.log("upload completed")
+
+//     }, 2000);
+// }
+
+// download(compress);
+// compress(upload)\
+// upload();

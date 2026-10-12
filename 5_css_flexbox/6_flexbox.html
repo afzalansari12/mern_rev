@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+
+    <style>
+        .cards {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            height: 400px;
+            width: 100%;
+            padding: 20px;
+            box-sizing: border-box;
+            background-color: aqua;
+        }
+
+        .card1,
+        .card2,
+        .card3,
+        .card4 {
+            border-radius: 5px;
+            height: 300px;
+            width: 250px;
+            border: 2px solid black;
+            background-color: white;
+            overflow: hidden;
+        }
+
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="cards">
+
+        <div class="card1"> <img src="https://images.unsplash.com/photo-1500534623283-312aade485b7"
+            alt="scenery"></div>
+
+        <div class="card2">
+            <img src="https://images.unsplash.com/photo-1500534623283-312aade485b7"
+                 alt="scenery">
+        </div>
+
+        <div class="card3"> <img src="https://images.unsplash.com/photo-1500534623283-312aade485b7"
+            alt="scenery"></div>
+
+        <div class="card4"> <img src="https://images.unsplash.com/photo-1500534623283-312aade485b7"
+            alt="scenery"></div>
+
+    </div>
+
+</body>
+</html>

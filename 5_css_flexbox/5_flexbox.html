@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex box</title>
+    <style>
+        .container{
+            align-items: center;
+            justify-content: space-between;
+            height: 600px;
+            width: 700px;
+            border: 2px solid black;
+            display: flex;
+            gap: 20px;
+
+        }
+        .A,
+        .B,
+        .C{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid black;
+            height: 80px;
+            margin-top: 10px;
+            margin-left: 10px;
+            background-color: yellow;
+             margin-right: 10px;
+            border-radius: 5px;
+
+
+            width: 440px;
+        }
+        .div-A{
+            border-radius: 5px;
+            margin-left: 20px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(58, 196, 189);
+            width: 30%;
+            height: 500px;
+            border: 2px solid black;
+            gap: 10px;
+
+        }
+        .div-B{
+            margin-right: 20px;
+
+            border-radius: 5px;
+            display: flex;
+        
+            width: 65%;
+            height: 500px;
+            border: 2px solid black;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="div-A">
+            side-bar
+        </div>
+        <div class="div-B">
+            <div class="A"> a</div>
+            <div class="B"> b</div>
+            <div class="C"> c</div>
+            <div class="div-B-2">
+
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
